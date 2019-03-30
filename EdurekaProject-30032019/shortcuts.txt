@@ -1,0 +1,9 @@
+
+	
+	Type "main" + ctrl + spacebar + enter --> To print main method
+	
+	Type "syso" + ctrl + spacebar + enter --> To print System.out.println();
+	
+	To run as Java application --> ALT + SHIFT + X, J
+	
+	To save File --> ctrl + s, ctrl +  shift + s
