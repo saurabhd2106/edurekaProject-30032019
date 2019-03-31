@@ -1,0 +1,9 @@
+
+	What is a constructor?
+	
+	- Method with same name as that of class
+	- It does not return anything not even null (No return type is declared with a method)
+	- It is used to define/assign default values to the variables of a class
+	- It is called when an object is created
+	- If a class does not have any constructor defined then JVM creates a default constructor for that class
+	

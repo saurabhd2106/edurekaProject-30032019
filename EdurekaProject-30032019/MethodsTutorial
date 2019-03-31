@@ -1,0 +1,19 @@
+
+	
+	
+	Methods
+	
+		x=20 -->	f(x) = x + 10;  f(20) = 30;
+		
+		
+		
+	return_type	name_of_method(arguments){
+				
+				// Definition of method
+				//Logic
+				
+				return value;
+				}
+				
+		if a method does not return anything then return_type = void
+		
