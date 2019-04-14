@@ -1,10 +1,10 @@
-package day4.javaConcepts;
+package day5;
+
+import day6.Machine;
 
 public class Car extends Machine{
 	
 	public Car() {
-		
-		super(4000);
 		System.out.println("I am constructor from car class");
 	}
 

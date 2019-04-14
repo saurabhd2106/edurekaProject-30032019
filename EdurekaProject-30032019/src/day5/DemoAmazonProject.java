@@ -11,7 +11,7 @@ public class DemoAmazonProject {
 		
 		System.out.println(ap.getNthProduct(10));
 		
-		ap.getAllProductsViaScrollDown();
+		ap.getAllProductsViaScrollDownUsingJS();
 
 	}
 

@@ -1,24 +1,22 @@
-package day4.javaConcepts;
+package day6;
 
 public class Machine {
-	
-	int engineSize;
-	
-	public Machine(int engineSize) {
-		
-		this.engineSize = engineSize;
+
+	protected int engineSize;
+
+	public Machine() {
 		System.out.println("Constructor from parent class");
 	}
-	
-	public void start(){
+
+	public void start() {
 		System.out.println("Start Method from Machine class");
 	}
 
-	public void stop(){
+	public void stop() {
 		System.out.println("Stop Method from Machine class");
 	}
-	
-	public void restart(){
+
+	protected void restart() {
 		System.out.println("Restart Method from Machine class");
 	}
 }

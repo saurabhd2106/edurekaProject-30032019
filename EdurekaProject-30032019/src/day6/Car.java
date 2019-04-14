@@ -1,10 +1,8 @@
-package day4.javaConcepts;
+package day6;
 
 public class Car extends Machine{
 	
 	public Car() {
-		
-		super(4000);
 		System.out.println("I am constructor from car class");
 	}
 
@@ -20,7 +18,7 @@ public class Car extends Machine{
 	}
 	
 	@Override
-	public void restart(){
+	protected void restart(){
 		System.out.println("Restart Method from Car class");
 	}
 

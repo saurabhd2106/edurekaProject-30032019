@@ -4,7 +4,7 @@ public class DemoCar {
 
 	public static void main(String[] args) {
 	
-		Machine mac = new Machine();
+		Machine mac = new Machine(1000);
 		
 		mac.start();
 		
@@ -21,6 +21,8 @@ public class DemoCar {
 		
 		alto.stop();
 		
+		alto.restart();
+		
 		alto.accelerate();
 		
 		alto.deacelerate();
@@ -31,7 +33,7 @@ public class DemoCar {
 		
 		bmw.start();
 		
-		
+		bmw.restart();
 	}
 
 }
