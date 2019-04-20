@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru 99 Test Suite" parallel="tests">
+	<test name="Chrome Test">
+	    <parameter name="browserType" value="chrome"></parameter>
+		<parameter name="userid" value="mngr188554"></parameter>
+		<parameter name="userPass" value="Ezazena"></parameter>
+		<classes>
+			<class name="day7.Guru99Project" />
+		</classes>
+	</test> <!-- Chrome Test -->
+	
+
+</suite> <!-- Guru 99 Test Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru 99 Test Suite]" parallel="tests">
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="userPass" value="Ezazena"/>
+    <parameter name="userid" value="mngr188554"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="day7.Guru99Project">
+        <methods>
+          <include name="verifyTitleOfthePage"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day7.Guru99Project -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Guru 99 Test Suite] -->
